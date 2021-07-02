@@ -71,6 +71,9 @@
     img {
         width: 100px;
     }
+    p {
+      margin: 0;
+    }
 
 
 </style>
@@ -123,11 +126,67 @@
 
       <ul class="list-group" data-bs-spy="scroll" data-bs-target="#navBar"   data-bs-offset="30" class="scrollspy-example" tabindex="0">
         <li class="categoryText list-group-item list-group-item-dark fw-bolder" id="scrollspyHeading1">APPETIZERS</li>
-        <li class="list-group-item" ><span>FRIED CALAMARI</span> | fried calamari  <span class="badge bg-warning text-dark">$11</span></li>
-        <li class="list-group-item" ><span>VEGI TEMPURA</span> | 야채 튀김 fried vegetables   <span class="badge bg-warning text-dark">$10</span></li>
-        <li class="list-group-item" ><span>MANDU</span> | 만두  house dumplings | steamed or fried    [5pc]-<span class="badge bg-warning text-dark">$7</span> | [10pc]-<span class="badge bg-warning text-dark">$13</span></li>
-        <li class="list-group-item" ><span>KIMCHI JUN</span> | 김치전  kimchi pancake   9</li>
-        <li class="list-group-item" ><span>HAEMUL PAJUN</span> | 해물 파전 *  seafood pancake    10</li>
+        <li class="list-group-item" >
+          <div class="row">
+            <div class="col-9">
+              <span >FRIED CALAMARI</span>
+              <P>fried calamari</P>
+            </div>
+            <div class="col-3 text-end">
+              <span class="badge bg-warning text-dark">$11</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item" >
+          <div class="row">
+            <div class="col-9">
+              <span >VEGI TEMPURA</span>
+              <P>야채 튀김 fried vegetables</P>
+            </div>
+            <div class="col-3 text-end">
+              <span class="badge bg-warning text-dark">$10</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item" >
+          <div class="row">
+            <div class="col-9">
+              <span >MANDU</span>
+              <P>만두  house dumplings | steamed or fried    [5pc]/[10pc]</P>
+            </div>
+            <div class="col-3 text-end">
+              <span class="badge bg-warning text-dark">$7 / $13</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item" >
+          <div class="row">
+            <div class="col-9">
+              <span >KIMCHI JUN</span>
+              <P>김치전  kimchi pancake</P>
+            </div>
+            <div class="col-3 text-end">
+              <span class="badge bg-warning text-dark">$9</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item" >
+          <div class="row">
+            <div class="col-9">
+              <span >HAEMUL PAJUN</span>
+              <P>해물 파전 * seafood pancake</P>
+            </div>
+            <div class="col-3 text-end">
+              <span class="badge bg-warning text-dark">$10</span>
+            </div>
+          </div>
+        </li>
+
+
 
         <li class="categoryText list-group-item list-group-item-dark fw-bolder" id="scrollspyHeading2">ENTREE</li>
         <li class="list-group-item" ><span>BEEF BRISKET DOENJANG JJIGAE</span> |차돌 된장 찌개  soy bean paste soup with beef brisket    12</li>
